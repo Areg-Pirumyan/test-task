@@ -65,6 +65,7 @@ function BooksPage() {
     };
 
     const toShowModalCard = (book) => {
+
         const isShow = !showModal.show;
         setShowModal({show:isShow,data:book})
     };
